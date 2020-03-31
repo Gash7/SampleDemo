@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="125.293112">
+<testcase classname="Login Feature" name="Negative login" time="45.497643">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user Enter proper "avgore7@gmail.com" and "Ashu@022"...................passed
+And User clicks on submit button............................................passed
+Then User is on HomePage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Negative login 2" time="42.881885">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user Enter proper "ashu123@gmail.com" and "Ashu022"....................passed
+And User clicks on submit button............................................passed
+Then User is on HomePage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Negative login 3" time="36.913584">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user Enter proper "ash@gmail.com" and "ashish123"......................passed
+And User clicks on submit button............................................passed
+Then User is on HomePage....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

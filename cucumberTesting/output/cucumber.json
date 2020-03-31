@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 32494782000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.init()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Negative login",
+        "description": "",
+        "id": "login-feature;negative-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1032709800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 154573500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776806800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter proper \"avgore7@gmail.com\" and \"Ashu@022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "avgore7@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Ashu@022",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.user_Enter_proper_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35348800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11003422200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "LoginSteps.user_is_on_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27098227500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Negative login",
+        "description": "",
+        "id": "login-feature;negative-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4172036400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593128300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter proper \"ashu123@gmail.com\" and \"Ashu022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ashu123@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Ashu022",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginSteps.user_Enter_proper_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18709900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10999687200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "LoginSteps.user_is_on_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25080602300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Negative login",
+        "description": "",
+        "id": "login-feature;negative-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 259780100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 77800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549366000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Enter proper \"ash@gmail.com\" and \"ashish123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ash@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "ashish123",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginSteps.user_Enter_proper_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24103900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10999653900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "LoginSteps.user_is_on_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
